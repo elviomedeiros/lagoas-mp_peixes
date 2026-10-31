@@ -65,9 +65,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Introduction
+# INTRODUÇÃO GERAL
 
 The scientific research follows the model shown in the figured cross-referenced here (@fig-pesquisa).
+
+# CAPÍTULO I
+
+# Introdução
 
 # Material and Methods
 
@@ -85,7 +89,53 @@ See publications by @macêdo2019.
 
 Here you can add your statistical analyses and follow the text with the RStudio code. Following the model in <https://elviomedeiros.github.io/Bentos2006_Q/>.
 
-```{r, CHUNK-TITLE}
+```{r, CHUNK-TITLE1}
+#| eval: false
+#| message: false
+#| warning: false
+#| results: false
+#| echo: true
+#| purl: false
+#| code-fold: true
+#| code-overflow: wrap
+#| code-summary: "Code: Summary"
+
+plot(1:10)
+```
+
+# Results
+
+The results section should follow the model in <https://elviomedeiros.github.io/Bentos2006_Q/>.
+
+## Environmental variables
+
+## Community structure
+
+# Discussion
+
+# Conclusions {.unnumbered}
+
+# CAPÍTULO II
+
+# Introdução
+
+# Material and Methods
+
+Data and methods are discussed in @sec-data-col. This citation will appear in the bibliography section (@gouveia2017; @medeiros2008).
+
+## Study Area and Sampling Design
+
+See publications by @gouveia2017.
+
+## Data Collection {#sec-data-col}
+
+See publications by @macêdo2019.
+
+## Statistical Analyses
+
+Here you can add your statistical analyses and follow the text with the RStudio code. Following the model in <https://elviomedeiros.github.io/Bentos2006_Q/>.
+
+```{r, CHUNK-TITLE2}
 #| eval: false
 #| message: false
 #| warning: false
